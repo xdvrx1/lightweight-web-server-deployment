@@ -5,8 +5,7 @@ Please refer to the
 
 This repo focuses on how to use the Spring Boot to create
 a production-grade executable jar file. Spring Boot is concerned with the 
-infrastructure while you focus on writing your program. Take note, this is 
-non-web GUI application. It's really that simple to build 
+infrastructure while you focus on writing your program. It's really that simple to build 
 and run **any** of your existing Java program through Spring Boot.
 
 First, there must be the `maven plugin` to create the executable jar file
@@ -28,7 +27,8 @@ because it has its own main method.
 
 And finally, when your program launches GUI, you must set 
 the headless mode in the SpringMainMethod file to false or else it 
-will throw a `HeadlessException`.
+will throw a `HeadlessException`. This web server is not yet complete
+but my plan is to add GUI.
 
 ```
 SpringApplicationBuilder builder = 
