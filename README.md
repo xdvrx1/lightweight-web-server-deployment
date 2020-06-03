@@ -21,7 +21,7 @@ because it has its own main method.
 
 ```
 <configuration>
-	<mainClass>xdvrx1ProjectSwing.MainMethod</mainClass>
+	<mainClass>xdvrx1_serverProject.MainMethod</mainClass>
 </configuration>	
 ```
 
