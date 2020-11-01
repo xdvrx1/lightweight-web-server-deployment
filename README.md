@@ -1,6 +1,6 @@
-# Lightweight Web Server
-
-Please refer to the 
+# Spring Boot Deployment Tutorial
+I'll use my very own project to demonstrate how to use Spring Boot and
+if you are interested in the project itself, please refer to the 
 [original repo of this project](https://github.com/xdvrx1/lightweight-web-server). 
 
 This repo focuses on how to use the Spring Boot to create
